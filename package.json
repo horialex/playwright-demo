@@ -1,0 +1,25 @@
+{
+  "name": "playwrightpoc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:e2e": "npx playwright test tests/",
+    "test:e2e:all": "npx playwright test tests --project=all-browsers-and-tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.37.0",
+    "@types/node": "^20.5.9",
+    "@types/uuid": "^9.0.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "reflect-metadata": "^0.1.13",
+    "tsyringe": "^4.8.0",
+    "typescript": "^5.2.2",
+    "uuid": "^9.0.0"
+  }
+}
